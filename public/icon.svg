@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Outer camera ring -->
+  <circle cx="256" cy="256" r="140" stroke="#93c5fd" stroke-width="16" stroke-opacity="0.4" fill="none" />
+  
+  <!-- Aperture ring -->
+  <circle cx="256" cy="256" r="105" fill="#0f172a" stroke="url(#lensGrad)" stroke-width="12" />
+  
+  <!-- Aperture blades -->
+  <polygon points="256,160 300,220 280,240" fill="#38bdf8" opacity="0.8" />
+  <polygon points="352,256 292,300 272,280" fill="#60a5fa" opacity="0.8" />
+  <polygon points="256,352 212,292 232,272" fill="#818cf8" opacity="0.8" />
+  <polygon points="160,256 220,212 240,232" fill="#a78bfa" opacity="0.8" />
+  
+  <!-- Center lens core -->
+  <circle cx="256" cy="256" r="38" fill="url(#lensGrad)" />
+  
+  <!-- AI Sparkle Top Right -->
+  <path d="M 370 120 Q 370 145 395 145 Q 370 145 370 170 Q 370 145 345 145 Q 370 145 370 120 Z" fill="#38bdf8" />
+  <path d="M 405 175 Q 405 190 420 190 Q 405 190 405 205 Q 405 190 390 190 Q 405 190 405 175 Z" fill="#fbbf24" />
+  
+  <!-- Tag icon bottom badge -->
+  <rect x="180" y="370" width="152" height="42" rx="21" fill="#1e293b" stroke="#38bdf8" stroke-width="4" />
+  <circle cx="204" cy="391" r="7" fill="#38bdf8" />
+  <rect x="222" y="386" width="86" height="10" rx="5" fill="#e2e8f0" />
+</svg>

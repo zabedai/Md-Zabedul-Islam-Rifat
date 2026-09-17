@@ -1,0 +1,6 @@
+{
+  "name": "Stock Metadata Generator",
+  "description": "Professional AI-powered stock photography and vector metadata generator with quality scoring, bulk processing, and multi-marketplace export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
